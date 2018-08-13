@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva;
+    background: rgba(194, 205, 223, 0.555);
+}
+
+
+header {
+    background-color: rgba(69, 78, 92, 0.555);
+    padding-bottom: 15px;
+    line-height: 40px;
+    
+}
+
+nav {
+    margin: 0;
+    background-color: rgb(20, 125, 211);
+    padding-top: 20px;
+}
+
+.container {
+    width:100%;
+    max-width: 960px;
+    margin: 25 auto;
+    clear: both;
+    
+}
+
+h1, h4, p {
+    margin-bottom:15px;
+    color:rgb(2, 26, 77)
+
+}
+#main-container {
+    padding-top: 20px;
+
+}
+
+.main-bio {
+    background: whitesmoke;
+    padding:35px;
+    width:90%;
+    float: left;
+    border: 10px solid rgb(16, 85, 117);
+}
+
+.travel {
+    width: 350px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 30px 0 15px;
+}
+#contact-form ul {
+    margin-bottom:20px;
+}
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type-email],
+textarea {
+    display: block;
+    width: 100%;
+}
+
+#message {
+    width: 200px;
+    height: 60px;
+}
+footer {
+    background: rgba(69, 78, 92, 0.555);
+    color: rgb(2, 26, 77); 
+    clear: both;
+    font-size: 12px;
+    text-align: center;
+
+}
